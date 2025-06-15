@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="655.0" prefWidth="1360.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NewsFeedPageController">
+   <top>
+      <HBox maxHeight="60.0" minHeight="60.0" prefHeight="60.0" prefWidth="200.0" spacing="30.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="56.0" prefWidth="347.0" />
+            <VBox prefHeight="56.0" prefWidth="316.0">
+               <children>
+                  <TextField maxHeight="230.0" minWidth="230.0" prefHeight="25.0" prefWidth="230.0" promptText="Search">
+                     <VBox.margin>
+                        <Insets right="90.0" top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <Group>
+               <children>
+                  <VBox prefHeight="57.0" prefWidth="41.0">
+                     <children>
+                        <FontAwesomeIconView fx:id="HomeIcon" fill="#838282" glyphName="HOME" onMouseClicked="#goToHomePage" onMouseEntered="#tuchHomeIcon" onMouseExited="#exitHomeIcon" size="35.0" wrappingWidth="39.0" />
+                        <Label text="Home">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="71.0" prefHeight="57.0" prefWidth="50.0">
+                     <children>
+                        <FontAwesomeIconView fx:id="MessageIcon" fill="#838282" glyphName="COMMENTS" onMouseClicked="#goToMessagePage" onMouseEntered="#tuchMessageIcon" onMouseExited="#exitMessageIcon" selectionFill="#ae1717" size="35.0" wrappingWidth="39.0" />
+                        <Label prefHeight="17.0" prefWidth="60.0" text="Message">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="151.0" prefHeight="57.0" prefWidth="67.0">
+                     <children>
+                        <FontAwesomeIconView fx:id="NotifIcon" fill="#838282" glyphName="BELL" onMouseClicked="#goToNotifPage" onMouseEntered="#tuchNotifIcon" onMouseExited="#exitNotifIcon" size="35.0" wrappingWidth="39.0">
+                           <VBox.margin>
+                              <Insets left="11.0" />
+                           </VBox.margin>
+                        </FontAwesomeIconView>
+                        <Label prefHeight="17.0" prefWidth="71.0" text="Notification" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="248.0" prefHeight="76.0" prefWidth="50.0">
+                     <children>
+                        <FontAwesomeIconView fx:id="JobIcon" fill="#838282" glyphName="BRIEFCASE" onMouseClicked="#goToJobPage" onMouseEntered="#tuchJobIcon" onMouseExited="#exitJobIcon" size="35.0" wrappingWidth="39.0" />
+                        <Label prefHeight="23.0" prefWidth="41.0" text="Job" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets left="7.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </Group>
+         </children>
+         <padding>
+            <Insets bottom="4.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   <center>
+      <ScrollPane fitToWidth="true" minHeight="575.0" minWidth="1350.0" prefHeight="595.0" prefWidth="1350.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <content>
+            <HBox alignment="CENTER" prefHeight="595.0" prefWidth="1400.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <AnchorPane prefHeight="595.0" prefWidth="609.0">
+                     <HBox.margin>
+                        <Insets left="20.0" right="10.0" />
+                     </HBox.margin>
+                     <children>
+                        <ImageView fitHeight="671.0" fitWidth="770.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@1719991440044.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="595.0" prefWidth="592.0">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                     <children>
+                        <VBox fx:id="VBoxPosts" layoutY="-1.0" maxWidth="500.0" minWidth="500.0" prefWidth="500.0" spacing="20.0">
+                           <children>
+                              <HBox maxHeight="100.0" maxWidth="511.0" minHeight="100.0" minWidth="369.0" prefHeight="100.0" prefWidth="511.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5;">
+                                 <VBox.margin>
+                                    <Insets bottom="40.0" top="20.0" />
+                                 </VBox.margin>
+                                 <children>
+                                    <ImageView fx:id="profilePotho" fitHeight="68.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@defaultAvatar.jpg" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <Button fx:id="startAPostBTN" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#Post" prefHeight="66.0" prefWidth="288.0" style="-fx-background-color: #5365f2; -fx-background-radius: 5;" text="Strat a post" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets bottom="13.0" left="10.0" right="10.0" top="15.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="105.0" layoutY="224.0" prefHeight="200.0" prefWidth="291.0" style="-fx-background-color: #ecf4fc;" visible="false" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </content>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ScrollPane>
+   </center>
+   <bottom>
+      <HBox prefHeight="40.0" prefWidth="1360.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

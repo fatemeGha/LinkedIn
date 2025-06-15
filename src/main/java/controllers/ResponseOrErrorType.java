@@ -1,0 +1,24 @@
+package controllers;
+import model.*;
+
+import java.io.Serializable;
+
+public enum ResponseOrErrorType implements Serializable {
+    SUCCESSFUL,
+    DUPLICATE_USERNAME,
+    DUPLICATE_EMAIL,
+    INVALID_EMAIL,
+    INVALID_DATEFORMAT,
+    INVALID_LINK,
+    DUPLICATE_PHONENUMBER,
+    USER_NOTFOUND,
+    OUT_OF_BOUND_LENGTH,
+    INVALID_PASS,
+    ALREADY_ONLINE,
+    LOWERCASE,
+    UPPERCASE,
+    UNSUCCESSFUL,
+    UNSUCCESSFUL_FILE,
+    INVALID_JWT, UNABLE_TO_FOLLOW, UNABLE_TO_UNFOLLOW, UNABLE_TO_BLOCK, UNABLE_TO_UNBLOCK,
+
+}

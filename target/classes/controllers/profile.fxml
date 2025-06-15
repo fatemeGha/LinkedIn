@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1584.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="396.0" fitWidth="1584.0" layoutX="-6.0" pickOnBounds="true" style="-fx-cursor: #FAFAD2;">
+         <image>
+            <Image url="@photo/Untitled.png" />
+         </image>
+      </ImageView>
+      <StackPane layoutX="57.0" layoutY="153.0" prefHeight="129.0" prefWidth="135.0" />
+      <Button layoutX="57.0" layoutY="679.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="178.0" text="Add profile section" textFill="#207bbd">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="786.0" layoutY="413.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="128.0" text="Edit intro">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="37.0" fitWidth="112.0" layoutX="1479.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@عکسس/Polish_20240702_113313420.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="127.0" layoutX="136.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/Polish_20240702_113313420.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="57.0" layoutY="479.0" prefHeight="27.0" prefWidth="178.0" text="name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="534.0" prefHeight="27.0" prefWidth="178.0" text="additional">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="584.0" prefHeight="27.0" prefWidth="178.0" text="location">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="633.0" prefHeight="27.0" prefWidth="178.0" text="contact info" textFill="#207bbd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="59.0" fitWidth="54.0" layoutX="1481.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/tn_WallpaperGram.IR_1643620260_9071.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="248.0" layoutY="679.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="112.0" style="-fx-background-color: #207bbd;" text="Contact " textFill="#d7dcdf">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

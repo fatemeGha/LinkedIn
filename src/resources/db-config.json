@@ -1,0 +1,6 @@
+{
+    "url": "jdbc:mysql://localhost:3306/linkedIn",
+    "username": "fateme",
+    "password": "fafa1384X$",
+    "driver": "com.mysql.cj.jdbc.Driver"
+  }
